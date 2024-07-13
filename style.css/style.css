@@ -42,14 +42,27 @@
     font-weight: 600;
     color: rgb(255, 255, 255);
 }
+
+/*my inspiration*/
 .why{
     align-content: center;
     text-align: center;
+    margin: 24px 0px;
+ color: rgb(13, 19, 33);
+Font weight: 800
+Font size: 32pxpx
+Row height: 37px
+
 
 }
 .des{
     text-align: center;
     align-content: center;
+    font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.7;
+margin: 24px 0px;
 
 }
 .frame-container{
@@ -62,9 +75,162 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 32px;
 }
 .frame{
     width: 1076px;
     height: 550px;
     
+}
+
+/*support*/
+.support{
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 16px;
+    width: 1140px;
+    height: 314px;
+    padding: 64px 48px 64px 48px;
+    margin: 0 auto;
+}
+.btnn{
+    color: rgba(39, 43, 53, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+}
+.bttn{
+position: static;
+width: 120px;
+height: 58px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 20px 17px 20px;
+
+
+margin: 0px 16px;
+}
+/* i will code */
+
+.flex{
+    display: flex;
+    margin: 16px 0px;
+    color: rgba(13, 19, 33, 0.7);
+    margin: 48px 0px;
+}
+.tag{
+    margin: 48px 0px;
+    align-content: center;
+    text-align: center;
+
+}
+
+.i-will{
+    margin: 32px 0px;
+}
+.lemme{
+    margin: 10px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+.bg-dev{
+    width: 1140px;
+height: 1395px;
+border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.02);
+margin: 0 auto;
+padding: 80px 97px 80px 97px;
+}
+/* footer */
+.icon{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 32px 150px 32px 150px;
+}
+/* support*/
+.spprt{
+    color: white;
+    margin: 16px 0px;
+}
+.para{
+ opacity: 0.7;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+color: rgb(255, 255, 255)
+margin: 16px 0px;
+}
+.text{
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+padding: 19px 20px 19px 20px;
+
+width: 548px;
+height: 57px;
+margin: 0px 16px;
+
+}
+.submit{
+ width: 80px;
+height: 24px;
+margin: 0px 10px;
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+padding: 17px 20px 17px 20px;
+color: rgb(13, 19, 33);
+font-size: 20px;
+
+text-align: center;
+font-weight: 600;
+line-height: 23px;
+
+}
+/* current target*/
+.card{
+    display: flex;
+}
+.html{
+    
+    margin: 0px 24px;
+    padding: 40px;
+    width: 364px;
+height: 300px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.css{
+    margin: 0px 24px;
+    padding: 40px;
+    width: 364px;
+height: 300px;
+border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+
+}
+.js{
+    margin: 0px 24px;
+    padding: 40px;
+    width: 364px;
+height: 300px;
+border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+.anchor{
+    color: rgb(13, 19, 33);
 }
