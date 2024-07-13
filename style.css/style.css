@@ -31,14 +31,40 @@
 }
 .btn{
     width: 208px;
-height: 66px;
-    
-margin: 32px 0px;
-border-radius: 8px;
+    height: 66px;
+        
+    margin: 32px 0px;
+    border-radius: 8px;
 
-background: rgb(13, 19, 33);
-padding: 21px 24px 21px 24px;
-font-size: 20px;
-font-weight: 600;
-color: rgb(255, 255, 255);
+    background: rgb(13, 19, 33);
+    padding: 21px 24px 21px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.why{
+    align-content: center;
+    text-align: center;
+
+}
+.des{
+    text-align: center;
+    align-content: center;
+
+}
+.frame-container{
+    
+    width: 1140px;
+    min-height: 614px;
+    margin: 0 auto;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame{
+    width: 1076px;
+    height: 550px;
+    
 }
